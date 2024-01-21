@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Aligning Header Content */
+header {
+  text-align: center;
+}
+
+/* Aligning NAV Content */
+nav {
+  text-align: center;
+}
+/* Setting Background color for NAV links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Centering the image! (Harder than I thought lol) */
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Centering the content within */
+#featured-property {
+  text-align: center;
+}
+
+/* Centering figure element */
+#featured-property figure {
+  display: inline-block;
+}
+
+/* Shinking IMG caption  */
+figcaption {
+  font-size: smaller;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: lightgray;
+}
+
+details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
